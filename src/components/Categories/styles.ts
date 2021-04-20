@@ -24,15 +24,13 @@ export const Container = styled.div`
         padding: 2px;
       }
 
-      div.search-icon {
+      img.search-icon {
         position: absolute;
         display: block;
         width: 14px;
         height: 14px;
         top: 3px;
         right: 5px;
-
-        background: #000000;
       }
     }
   }
@@ -82,6 +80,7 @@ export const Container = styled.div`
         height: 30%;
         font-size: var(--body-text);
         color: var(--main-blue);
+        letter-spacing: 0.05rem;
         padding: 5px;
         background: #ffffff;
       }

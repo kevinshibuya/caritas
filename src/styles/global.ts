@@ -52,7 +52,7 @@ export default createGlobalStyle`
   }
 
   div.App {
-    background-image: url('../assets/logo-hands-light.svg');
+    background-image: url(${background});
     background-repeat: no-repeat;
     background-position: right;
     background-position-x: -20px;
