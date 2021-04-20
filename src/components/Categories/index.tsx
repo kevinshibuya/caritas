@@ -41,7 +41,7 @@ const Categories = (): JSX.Element => {
           <img
             src={searchIcon}
             className="search-icon"
-            alt="Icone de pesquisa"
+            alt="search icon"
           />
         </div>
       </div>
